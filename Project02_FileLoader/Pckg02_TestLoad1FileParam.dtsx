@@ -7,12 +7,12 @@
   DTS:CreatorName="ITK\tomek"
   DTS:DTSID="{B5EFF902-CFDE-41EE-A69E-5D9F167EE64C}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="13.0.2165.0"
+  DTS:LastModifiedProductVersion="15.0.1100.123"
   DTS:LocaleID="1045"
   DTS:ObjectName="Pckg02_TestLoad1FileParam"
   DTS:PackageType="5"
-  DTS:VersionBuild="8"
-  DTS:VersionGUID="{F968F78E-3813-440D-A06A-32C85A9D143A}">
+  DTS:VersionBuild="9"
+  DTS:VersionGUID="{843C454C-B103-49E6-A269-54ECC303948D}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -41,7 +41,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="SCHOOL CODE"
-              DTS:DTSID="{D9185A30-F082-4318-A512-8308CE586035}"
+              DTS:DTSID="{2C0A2D40-8AD9-48BA-A428-204E87E5DF07}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -50,7 +50,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="SCHOOL NAME"
-              DTS:DTSID="{C29A9917-33B5-493C-90E4-8467B1410708}"
+              DTS:DTSID="{94BAA0AD-86A8-4EA0-B5DF-FA91D9EC3C2B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -59,7 +59,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="GRADE "
-              DTS:DTSID="{0B496E82-5DDD-4BDD-85CB-89477C5B3C6F}"
+              DTS:DTSID="{A3954F39-C3DA-4D41-B7D9-CC338B4E322A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -68,7 +68,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="PROGRAM TYPE"
-              DTS:DTSID="{F37519F9-0833-45CE-A520-296EB706E430}"
+              DTS:DTSID="{60A1819D-1328-4505-A1AF-B6E28E6D7287}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -77,7 +77,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="NUMBER OF STUDENTS   SEATS FILLED"
-              DTS:DTSID="{2E5FCA69-D8AA-48A1-A5F8-589047C2101D}"
+              DTS:DTSID="{4EC77130-28B6-4D6C-8861-A8209CEF4673}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -86,7 +86,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="NUMBER OF SECTIONS"
-              DTS:DTSID="{E53FDD0E-BF44-4374-B137-4B1D89DAC6B9}"
+              DTS:DTSID="{B7EAB1EB-4B23-45C3-8A1D-A2BBAD6F6E98}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -95,7 +95,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="AVERAGE CLASS SIZE"
-              DTS:DTSID="{0697623A-245F-42BF-95EB-CBA91EAC061B}"
+              DTS:DTSID="{CBB38E20-BB3C-47BF-985F-AA4898428AD4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -104,7 +104,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="SIZE OF SMALLEST CLASS"
-              DTS:DTSID="{104FD038-C4C1-477C-8D1B-6D538F2D23AF}"
+              DTS:DTSID="{E18360A4-D0B1-455F-A5F8-B7DFBE3FF54E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -113,7 +113,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="SIZE OF LARGEST CLASS"
-              DTS:DTSID="{5B2BDCA0-5FFC-4E96-B21A-BEEBC7F298EB}"
+              DTS:DTSID="{E467F7C6-1D0A-4B5F-A995-3AEFC0BCD778}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -479,7 +479,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[SchoolTest1File]</property>
+                  name="OpenRowset"></property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -488,7 +488,7 @@
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -729,13 +729,13 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="151,42"
-          Id="Package\DFTSchool\Flat File Source"
-          TopLeft="119,47" />
-        <NodeLayout
           Size="171,42"
           Id="Package\DFTSchool\OLE DB Destination"
           TopLeft="261,170" />
+        <NodeLayout
+          Size="151,42"
+          Id="Package\DFTSchool\Flat File Source"
+          TopLeft="119,47" />
         <EdgeLayout
           Id="Package\DFTSchool.Paths[Flat File Source Output]"
           TopLeft="194.5,89">
