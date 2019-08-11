@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
-  DTS:ObjectName="Flat File Connection Manager 1"
+  DTS:ObjectName="Flat File Connection Auta"
   DTS:DTSID="{226C9E70-DA17-4C98-9F23-524F403AC04D}"
   DTS:CreationName="FLATFILE">
   <DTS:ObjectData>
