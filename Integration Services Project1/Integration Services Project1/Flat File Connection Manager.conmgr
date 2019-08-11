@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
-  DTS:ObjectName="Flat File Connection Manager"
+  DTS:ObjectName="Flat File Connection Mosty"
   DTS:DTSID="{1E6D2AFC-4B83-4A65-BD35-3D42D5327A50}"
   DTS:CreationName="FLATFILE">
   <DTS:ObjectData>
@@ -21,7 +21,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="IDENTIF"
-          DTS:DTSID="{9B5F39EC-43A2-48A8-B40C-1BD1FE3A4DDB}"
+          DTS:DTSID="{35D7A880-B8F1-4409-9BDD-92BC295EADE9}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -30,7 +30,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="RIVER"
-          DTS:DTSID="{1606DAC1-8B88-4E26-8FAF-B3E1C6F039D9}"
+          DTS:DTSID="{6D05F74C-5AFC-4EF4-BFC1-D446A3AA3656}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -39,7 +39,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="LOCATION"
-          DTS:DTSID="{35613505-5B48-4A0D-A6F8-18FEE25862C6}"
+          DTS:DTSID="{CA0DFEA0-240D-4DD9-AF81-E514DE5450C1}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -48,7 +48,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="ERECTED"
-          DTS:DTSID="{A7385DE8-4FE0-4532-87FD-93DA85713952}"
+          DTS:DTSID="{D35CACC5-28F5-4B46-83FA-5E0FC5484DD4}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -57,7 +57,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="PURPOSE"
-          DTS:DTSID="{0463736A-832A-493E-9623-37F0AE2F2E60}"
+          DTS:DTSID="{92A1B79B-9579-40B2-80C6-F253E505DCB8}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -66,7 +66,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="LENGTH"
-          DTS:DTSID="{D6A82143-EDE1-4719-8E17-CA4E67B7B5B2}"
+          DTS:DTSID="{4833D343-8997-4D5C-B67C-AC54DE352968}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -74,7 +74,7 @@
           DTS:DataType="19"
           DTS:TextQualified="True"
           DTS:ObjectName="LANES"
-          DTS:DTSID="{0229523F-A761-449D-B86B-F5D6544E62FF}"
+          DTS:DTSID="{C0D6BFB9-C57E-4123-8CA4-9F9D6C49B0D7}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -83,7 +83,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="CLEAR-G"
-          DTS:DTSID="{AAC1EB97-7071-43A9-9977-085BB13AC6BB}"
+          DTS:DTSID="{1C765604-D96B-4E56-BE0F-A355768A53CA}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -92,7 +92,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="TorD"
-          DTS:DTSID="{CF6B6466-72F3-4CED-8573-A15C62F06551}"
+          DTS:DTSID="{93A8FBC8-28F1-4FD6-9592-EBFE4649F0B2}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -101,7 +101,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="MATERIAL"
-          DTS:DTSID="{C5A2DBED-88B7-4EAE-BA2B-A429D0D9DC24}"
+          DTS:DTSID="{F133A854-00E4-4FE5-A763-B15F96484C4E}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -110,7 +110,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="SPAN"
-          DTS:DTSID="{82E42694-10B2-48EC-9E60-817B4BF926A2}"
+          DTS:DTSID="{EA8F1D22-E5D9-4252-821A-CA819D37EDB5}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -119,7 +119,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="RelL"
-          DTS:DTSID="{0191AF91-19A2-425E-ABAF-F465B104D4A4}"
+          DTS:DTSID="{FA6C6963-B48E-450A-A792-E6ED6CB402AA}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -128,7 +128,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="TYPE"
-          DTS:DTSID="{3DFFD147-8D50-450B-9AED-599248B159FB}"
+          DTS:DTSID="{64619E21-8F4B-4E13-B3AE-7B38BF298527}"
           DTS:CreationName="" />
       </DTS:FlatFileColumns>
     </DTS:ConnectionManager>
