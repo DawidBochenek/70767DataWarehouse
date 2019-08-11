@@ -11,8 +11,8 @@
   DTS:LocaleID="1045"
   DTS:ObjectName="Konroler"
   DTS:PackageType="5"
-  DTS:VersionBuild="2"
-  DTS:VersionGUID="{2336CC80-D98E-4744-A2DD-C529999398F4}">
+  DTS:VersionBuild="3"
+  DTS:VersionGUID="{E5F1603B-EC5D-41BC-876A-323DB7F6606A}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -1771,7 +1771,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{709B9465-6789-4D71-98EA-32A8AB514565}"
-          SQLTask:SqlStatementSource="TRUNCATE TABLE ABALONE" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="TRUNCATE TABLE [dbo].[OLE DB Destination]" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
