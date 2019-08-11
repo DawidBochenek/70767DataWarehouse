@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
-  DTS:ObjectName="PK2-12.Zadanie1"
+  DTS:ObjectName="USER-KOMPUTER"
   DTS:DTSID="{709B9465-6789-4D71-98EA-32A8AB514565}"
   DTS:CreationName="OLEDB">
   <DTS:ObjectData>
     <DTS:ConnectionManager
-      DTS:ConnectionString="Data Source=PK2-12;Initial Catalog=Zadanie1;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      DTS:ConnectionString="Data Source=USER-KOMPUTER;Initial Catalog=Database1;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
   </DTS:ObjectData>
 </DTS:ConnectionManager>
