@@ -11,8 +11,8 @@
   DTS:LocaleID="1045"
   DTS:ObjectName="Konroler"
   DTS:PackageType="5"
-  DTS:VersionBuild="4"
-  DTS:VersionGUID="{AD133385-8A5F-4F88-9A98-B768E110BE92}">
+  DTS:VersionBuild="10"
+  DTS:VersionGUID="{847B08E6-914A-42E6-AC83-62BF076AB7DE}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -1795,7 +1795,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{709B9465-6789-4D71-98EA-32A8AB514565}"
-          SQLTask:SqlStatementSource="INSERT INTO&#xA;HistoriaPaczek&#xA;(PackageName,UserName,StartTime);" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="INSERT INTO&#xA;dbo.Test&#xA;(PackageName);" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
