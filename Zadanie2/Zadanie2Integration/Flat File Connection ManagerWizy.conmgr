@@ -13,7 +13,7 @@
       DTS:RowDelimiter=""
       DTS:TextQualifier="_x003C_none_x003E_"
       DTS:CodePage="1250"
-      DTS:ConnectionString="D:\Users\dawid.bochenek\Downloads\70767DataWarehouse-master (1)\70767DataWarehouse-master\Lesson00 Projects\Project03 BasicCFTasks\WizyWydane.csv">
+      DTS:ConnectionString="C:\Users\User\source\repos\70767DataWarehouse\Zadanie2\Dane\WizyWydane.csv">
       <DTS:FlatFileColumns>
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -22,7 +22,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="OSG"
-          DTS:DTSID="{A767995C-10D7-406D-9EFE-F79341FAAD46}"
+          DTS:DTSID="{5423942D-4A89-4105-A876-312A6F7B63B5}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -31,7 +31,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="PSG"
-          DTS:DTSID="{E2447CEF-E2B5-42CF-AEA5-3056EA307088}"
+          DTS:DTSID="{34736272-29CA-4149-8E3C-63782DA6861E}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -40,7 +40,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="Obywatelstwo"
-          DTS:DTSID="{1F9D63F7-90B9-40AD-A446-77A9EB420A32}"
+          DTS:DTSID="{B8823809-53F7-42E8-8763-C0B36FF543AD}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -49,7 +49,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="Symbol"
-          DTS:DTSID="{C267AD9D-6735-476A-8C39-9CB99CDFB690}"
+          DTS:DTSID="{940CE052-1CC1-45C0-BFA7-0F2E36DDED47}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -57,7 +57,7 @@
           DTS:DataType="18"
           DTS:TextQualified="True"
           DTS:ObjectName="SchengenZaTeryt"
-          DTS:DTSID="{14D9ED15-DCF7-40AE-A4E7-AEBE4CBC7382}"
+          DTS:DTSID="{4CE0CF86-E0A8-4A0B-92EF-6F6BF1EF9DE9}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -65,7 +65,7 @@
           DTS:DataType="16"
           DTS:TextQualified="True"
           DTS:ObjectName="SchengZasTerytPolska"
-          DTS:DTSID="{0117672A-454B-4636-B2B4-D5F189308711}"
+          DTS:DTSID="{82496102-B045-4EA0-9BF9-A040EEEED968}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -73,7 +73,7 @@
           DTS:DataType="16"
           DTS:TextQualified="True"
           DTS:ObjectName="ZastNaklejkiVD"
-          DTS:DTSID="{D9048985-1C39-425F-8FF6-502100430E32}"
+          DTS:DTSID="{A91E608A-ABC1-4F14-BC44-56999FDC9EAA}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -81,7 +81,7 @@
           DTS:DataType="16"
           DTS:TextQualified="True"
           DTS:ObjectName="ZastNaklejkiVC"
-          DTS:DTSID="{41430138-F827-4249-A984-4C0465DCC366}"
+          DTS:DTSID="{ED3AFAE1-F8AF-452F-9B39-425956FF6461}"
           DTS:CreationName="" />
       </DTS:FlatFileColumns>
     </DTS:ConnectionManager>
