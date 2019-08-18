@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
-  DTS:ObjectName="Flat File Connection Manager"
+  DTS:ObjectName="FlatFileConnManagerVisaWydane"
   DTS:DTSID="{2ACD3DBB-21FD-4F2F-97A8-44B958A62905}"
+  DTS:Description="WydaneWizyCSV"
   DTS:CreationName="FLATFILE">
   <DTS:ObjectData>
     <DTS:ConnectionManager
@@ -17,74 +18,70 @@
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
           DTS:ColumnDelimiter="_x003B_"
-          DTS:MaximumWidth="50"
+          DTS:MaximumWidth="7"
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="OSG"
-          DTS:DTSID="{B673617A-75EE-4F70-BAF6-021DE4606375}"
+          DTS:DTSID="{52DF7C6D-E32E-4C65-9EEB-CC1065961847}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
           DTS:ColumnDelimiter="_x003B_"
-          DTS:MaximumWidth="50"
+          DTS:MaximumWidth="30"
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="PSG"
-          DTS:DTSID="{E1D376BE-CF69-4488-8DE5-576276A12FA6}"
+          DTS:DTSID="{BC18E21D-C546-46FC-8EB9-B55F494C30C1}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
           DTS:ColumnDelimiter="_x003B_"
-          DTS:MaximumWidth="50"
+          DTS:MaximumWidth="30"
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="Obywatelstwo"
-          DTS:DTSID="{A0738E59-A2B9-4445-8C9C-33E4B3D1F79E}"
+          DTS:DTSID="{FE06620D-832A-4916-992E-58D478779B8C}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
           DTS:ColumnDelimiter="_x003B_"
-          DTS:MaximumWidth="50"
+          DTS:MaximumWidth="2"
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="Symbol"
-          DTS:DTSID="{8AC57915-1BDA-4EF2-A88A-97919F51D896}"
+          DTS:DTSID="{0FAA0417-0BF0-4646-BA1E-7F9C238E2657}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
           DTS:ColumnDelimiter="_x003B_"
-          DTS:MaximumWidth="50"
-          DTS:DataType="129"
+          DTS:DataType="2"
           DTS:TextQualified="True"
           DTS:ObjectName="Wydanie wizy Schengen, Zasięg terytorialny - Państwa Schengen"
-          DTS:DTSID="{8AE4417D-35B9-4E77-AB2D-105A62061FEF}"
+          DTS:DTSID="{2B83E131-233C-438A-B004-7FF5D21B8B65}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
           DTS:ColumnDelimiter="_x003B_"
-          DTS:MaximumWidth="50"
-          DTS:DataType="129"
+          DTS:DataType="16"
           DTS:TextQualified="True"
           DTS:ObjectName="Wydanie wizy Schengen, Zasięg terytorialny - Polska"
-          DTS:DTSID="{82DB9E4C-952A-4B6F-8D04-5EAE9B6AA904}"
+          DTS:DTSID="{608B75D6-D883-45B5-B59E-7B4D2EE46321}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
           DTS:ColumnDelimiter="_x003B_"
-          DTS:MaximumWidth="50"
-          DTS:DataType="129"
+          DTS:DataType="16"
           DTS:TextQualified="True"
-          DTS:ObjectName="Zastąpienie naklejki wizowej, Rodzaj wizy - VD"
-          DTS:DTSID="{434C1FE9-9613-4D18-941C-05C60EB31FFF}"
+          DTS:ObjectName="ZastRodzajWizyVD"
+          DTS:DTSID="{1452F2DF-3100-41B9-8445-A57454D33E8B}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
           DTS:ColumnDelimiter="_x000D__x000A_"
-          DTS:MaximumWidth="50"
-          DTS:DataType="129"
+          DTS:DataType="16"
           DTS:TextQualified="True"
-          DTS:ObjectName="Zastąpienie naklejki wizowej, Rodzaj wizy - VC"
-          DTS:DTSID="{BFBA594D-BB92-43E8-91D0-256EABBC2A7E}"
+          DTS:ObjectName="ZastRodzajWizyVC"
+          DTS:DTSID="{0211678D-31CD-42C0-A61A-FB8DCF15ECA4}"
           DTS:CreationName="" />
       </DTS:FlatFileColumns>
     </DTS:ConnectionManager>
