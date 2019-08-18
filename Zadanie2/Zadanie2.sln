@@ -7,6 +7,8 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Zadanie2", "Zadanie2\Zadani
 EndProject
 Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Zadanie2Integration", "Zadanie2Integration\Zadanie2Integration.dtproj", "{AB3E27C4-F767-49E1-AEBC-BDFE191528D0}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BazaDanychZadanie2Wizy", "BazaDanychZadanie2Wizy\BazaDanychZadanie2Wizy.sqlproj", "{CFC048BC-D23B-4958-8645-70C83ADC1781}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,15 @@ Global
 		{AB3E27C4-F767-49E1-AEBC-BDFE191528D0}.Development|Any CPU.Build.0 = Development
 		{AB3E27C4-F767-49E1-AEBC-BDFE191528D0}.Release|Any CPU.ActiveCfg = Development
 		{AB3E27C4-F767-49E1-AEBC-BDFE191528D0}.Release|Any CPU.Build.0 = Development
+		{CFC048BC-D23B-4958-8645-70C83ADC1781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFC048BC-D23B-4958-8645-70C83ADC1781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFC048BC-D23B-4958-8645-70C83ADC1781}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CFC048BC-D23B-4958-8645-70C83ADC1781}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFC048BC-D23B-4958-8645-70C83ADC1781}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{CFC048BC-D23B-4958-8645-70C83ADC1781}.Development|Any CPU.Deploy.0 = Debug|Any CPU
+		{CFC048BC-D23B-4958-8645-70C83ADC1781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFC048BC-D23B-4958-8645-70C83ADC1781}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFC048BC-D23B-4958-8645-70C83ADC1781}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
