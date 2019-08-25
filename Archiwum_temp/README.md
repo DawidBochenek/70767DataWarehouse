@@ -1,2 +1,0 @@
-# 70767DataWarehouse
-Laboratoria

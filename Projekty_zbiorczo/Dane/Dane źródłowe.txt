@@ -1,8 +1,0 @@
-DawidBochenek/70767DataWarehouse
-
-https://archive.ics.uci.edu/ml/datasets/Abalone
-
-https://archive.ics.uci.edu/ml/datasets/Pittsburgh+Bridges
-
-https://archive.ics.uci.edu/ml/datasets/Car+Evaluation
-
