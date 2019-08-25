@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Integration Services Project1", "Integration Services Project1\Integration Services Project1.dtproj", "{398F2D3F-C7D0-42D3-9CF7-8ABEF92743F7}"
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Zadanie 1 Project02 LoadUCIML", "Integration Services Project1\Zadanie 1 Project02 LoadUCIML.dtproj", "{398F2D3F-C7D0-42D3-9CF7-8ABEF92743F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
