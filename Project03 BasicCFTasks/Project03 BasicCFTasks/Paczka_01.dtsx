@@ -11,8 +11,8 @@
   DTS:LocaleID="1045"
   DTS:ObjectName="Paczka_01"
   DTS:PackageType="5"
-  DTS:VersionBuild="5"
-  DTS:VersionGUID="{0B6D18EE-8818-43B2-91BF-28763C34CA18}">
+  DTS:VersionBuild="7"
+  DTS:VersionGUID="{E87F1506-7218-4B0B-9263-E87DAE773C47}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -320,7 +320,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[[T01_WizyWydane]</property>
+                  name="OpenRowset">[T01_WizyWydane]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -518,7 +518,7 @@
       DTS:refId="Package\Execute SQL Task"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:DTSID="{902E2611-DEBB-4EA3-8191-C94F6E954120}"
+      DTS:DTSID="{39C23317-D716-4B2E-9583-6635C7F8CA6D}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Execute SQL Task"
@@ -527,7 +527,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{60ECEEAF-C2B2-4368-9E9A-672D54109EC8}"
-          SQLTask:SqlStatementSource="TRUNCATE TABLE dbo.[T01_WizyWydane]" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="TRUNCATE TABLE [dbo].[T01_WizyWydane];" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
@@ -535,7 +535,7 @@
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint]"
       DTS:CreationName=""
-      DTS:DTSID="{DEB8AC5E-EF08-464C-B8A8-DA495F7756CB}"
+      DTS:DTSID="{562A914A-58CF-4DC7-8855-682A853BC994}"
       DTS:From="Package\Execute SQL Task"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint"
@@ -554,39 +554,39 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="170,42"
-          Id="Package\Execute SQL Task"
-          TopLeft="316,76" />
-        <NodeLayout
           Size="155,42"
           Id="Package\Data Flow Task"
           TopLeft="405,179" />
+        <NodeLayout
+          Size="170,42"
+          Id="Package\Execute SQL Task"
+          TopLeft="451,39" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="401,118">
+          TopLeft="536,81">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="81.5,61"
+              EndConnector="-53.5,98"
               Start="0,0"
-              End="81.5,53.5">
+              End="-53.5,90.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,26.5" />
+                    End="0,45" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,26.5"
-                    Point2="0,30.5"
-                    Point3="4,30.5" />
+                    Point1="0,45"
+                    Point2="0,49"
+                    Point3="-4,49" />
                   <mssgle:LineSegment
-                    End="77.5,30.5" />
+                    End="-49.5,49" />
                   <mssgle:CubicBezierSegment
-                    Point1="77.5,30.5"
-                    Point2="81.5,30.5"
-                    Point3="81.5,34.5" />
+                    Point1="-49.5,49"
+                    Point2="-53.5,49"
+                    Point3="-53.5,53" />
                   <mssgle:LineSegment
-                    End="81.5,53.5" />
+                    End="-53.5,90.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -606,37 +606,37 @@
         <NodeLayout
           Size="156,42"
           Id="Package\Data Flow Task\Flat File Source"
-          TopLeft="330,107" />
+          TopLeft="330,105" />
         <NodeLayout
           Size="177,42"
           Id="Package\Data Flow Task\OLE DB Destination"
           TopLeft="451,291" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Flat File Source Output]"
-          TopLeft="408,149">
+          TopLeft="408,147">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="131.5,142"
+              EndConnector="131.5,144"
               Start="0,0"
-              End="131.5,134.5">
+              End="131.5,136.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,67" />
+                    End="0,68" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,67"
-                    Point2="0,71"
-                    Point3="4,71" />
+                    Point1="0,68"
+                    Point2="0,72"
+                    Point3="4,72" />
                   <mssgle:LineSegment
-                    End="127.5,71" />
+                    End="127.5,72" />
                   <mssgle:CubicBezierSegment
-                    Point1="127.5,71"
-                    Point2="131.5,71"
-                    Point3="131.5,75" />
+                    Point1="127.5,72"
+                    Point2="131.5,72"
+                    Point3="131.5,76" />
                   <mssgle:LineSegment
-                    End="131.5,134.5" />
+                    End="131.5,136.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
