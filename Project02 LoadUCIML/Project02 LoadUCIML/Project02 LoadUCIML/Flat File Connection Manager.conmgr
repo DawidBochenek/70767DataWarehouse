@@ -1,17 +1,18 @@
 ﻿<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
-  DTS:ObjectName="Abalone"
-  DTS:DTSID="{527AA6C2-60AD-47D2-95EC-F6FB70D8984B}"
+  DTS:ObjectName="AboloneConMen"
+  DTS:DTSID="{117E54E6-1CD2-41E3-B455-96296CFB0742}"
+  DTS:Description="Abolone CSV"
   DTS:CreationName="FLATFILE">
   <DTS:ObjectData>
     <DTS:ConnectionManager
       DTS:Format="Delimited"
-      DTS:LocaleID="2057"
+      DTS:LocaleID="1045"
       DTS:HeaderRowDelimiter="_x000D__x000A_"
       DTS:RowDelimiter=""
       DTS:TextQualifier="_x003C_none_x003E_"
       DTS:CodePage="1250"
-      DTS:ConnectionString="C:\Users\User\Documents\Dawid Zaliczenie DataWarehouse\abalone.csv">
+      DTS:ConnectionString="C:\Users\dawid\source\repos\70767DataWarehouse\Dane\abalone.csv">
       <DTS:FlatFileColumns>
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -20,7 +21,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="Sex"
-          DTS:DTSID="{72D66973-0E67-4B5F-87AB-BDA0B2DEA10C}"
+          DTS:DTSID="{81D38E6C-26FD-4240-83FD-8831DB5A9A5A}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -30,7 +31,7 @@
           DTS:DataScale="5"
           DTS:TextQualified="True"
           DTS:ObjectName="Length"
-          DTS:DTSID="{217D5701-900D-4838-B8BF-90B792307988}"
+          DTS:DTSID="{71A3397E-E381-466A-8E2B-0EE9CDDFDAA9}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -40,7 +41,7 @@
           DTS:DataScale="5"
           DTS:TextQualified="True"
           DTS:ObjectName="Diameter"
-          DTS:DTSID="{111D0C44-DFEF-4996-BD5A-DC6BFC97C2B1}"
+          DTS:DTSID="{46B43F53-5ADD-4308-9BFB-7BAD7FB45951}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -50,7 +51,7 @@
           DTS:DataScale="5"
           DTS:TextQualified="True"
           DTS:ObjectName="Height"
-          DTS:DTSID="{188CC3D0-43D7-423A-BD1F-963F754D873B}"
+          DTS:DTSID="{F22E117B-1D53-410A-BD43-48741762D82A}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -59,8 +60,8 @@
           DTS:DataPrecision="10"
           DTS:DataScale="5"
           DTS:TextQualified="True"
-          DTS:ObjectName="Whole weight"
-          DTS:DTSID="{CAC6169D-AAA6-49C0-8C3A-8D3610C9CAA4}"
+          DTS:ObjectName="WholeWeight"
+          DTS:DTSID="{9690B8CE-C0EE-40E7-9680-52D3B53D83B2}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -69,8 +70,8 @@
           DTS:DataPrecision="10"
           DTS:DataScale="5"
           DTS:TextQualified="True"
-          DTS:ObjectName="Shucked weight"
-          DTS:DTSID="{13E39629-2F2D-4353-90D4-707DE53DC2EA}"
+          DTS:ObjectName="ShuckedWeight"
+          DTS:DTSID="{DEA6098C-7AA0-4320-B4EA-A5BC4418CDB2}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -79,8 +80,8 @@
           DTS:DataPrecision="10"
           DTS:DataScale="5"
           DTS:TextQualified="True"
-          DTS:ObjectName="Viscera weight"
-          DTS:DTSID="{D39A8ECC-A28A-4329-A13D-CDCD6B0BBE1F}"
+          DTS:ObjectName="VisceraWeight"
+          DTS:DTSID="{47293B81-C0CE-4138-BDEB-52592249CA31}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -89,8 +90,8 @@
           DTS:DataPrecision="10"
           DTS:DataScale="5"
           DTS:TextQualified="True"
-          DTS:ObjectName="Shell weight"
-          DTS:DTSID="{605DA114-033F-49D9-8065-42402E730A8C}"
+          DTS:ObjectName="ShellWeight"
+          DTS:DTSID="{E0CE1A0E-8AD1-44AA-AF87-81F6DDB15AEF}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -98,7 +99,7 @@
           DTS:DataType="3"
           DTS:TextQualified="True"
           DTS:ObjectName="Rings"
-          DTS:DTSID="{275D014E-68E6-44B8-BF3E-4C500FEA127A}"
+          DTS:DTSID="{297B99FB-6F7E-4CDE-ABA4-53B41CE22018}"
           DTS:CreationName="" />
       </DTS:FlatFileColumns>
     </DTS:ConnectionManager>
