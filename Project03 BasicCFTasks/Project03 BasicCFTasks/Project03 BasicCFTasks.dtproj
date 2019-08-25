@@ -26,12 +26,13 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-Q9K591A</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA20KEzQ/8pE62hTJOWFY7AQAAAAACAAAAAAAQZgAAAAEAACAAAABpH5izwrfRdkbiLhwXF7roVj29m03yYwhCkV/K+G+OyQAAAAAOgAAAAAIAACAAAACDpVfC/qlqo4yYPf6NPdvziNaAYIvgh2kaGzlTQc6z8ZAAAAAmWhlo3ypOws6yRjGhOpj/gkGd4w4pzdYRB1RgKD6ql+ySILMy8F0fRCO3C50rtCrIv2Z+W9bLvFyelAZ4s6kzqRODpp0REygwj83zhrwiUxvavlB3kt57QHxxA51FI/F/Avsexr/b/v8SueoQbfQ7lX8J3sR+IHtinvYD3gWxC7ga0Qu6fF6rSuVxr3Q5j9dAAAAAr0GuaMFwROKZSmsfIjBitrHgIuxmg4E0o/MJON4Q4P71NVfEAE/D9m7pPXy30DFgCcRsU4R7AI1NosgJLi6olA==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA20KEzQ/8pE62hTJOWFY7AQAAAAACAAAAAAAQZgAAAAEAACAAAADJ4adpcnb9IapNvrIWIJ1bQLYq3/gvdB6xjRo3wq/hYQAAAAAOgAAAAAIAACAAAAATE1sFjPjwGChsGpRTzfiWYdKbgfGIESqFLmeEPsL4vZAAAACa1LxC57QxvXu43BiEmZUkdMx+1xXEkkzDV3UOlhRC+UN7jpfkfhO+mh5x3UUoNUaSNQXLh+zlun9SwZRn5vIbjjrtVMx0Yw6RtIoF62zMJU+kCbiBazbWuxf4dgx8QypRrTURNqnVkzsiuS/ZdMr3MA1a/IQ7wZYGwMDe1wOC1gaMWCoqU7GW6cGY109zoOpAAAAAHsJCKuI7SeibJ9DOpiGOK9R3U70b5WNPiE6LnnuFqiKH8Os+HXUafUvkkkMUmywkFbYI8oIk48tlNB1JDJTTpw==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
           <SSIS:Package SSIS:Name="Paczka_01.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="Paczka_02.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Paczka_03.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers>
           <SSIS:ConnectionManager SSIS:Name="DESKTOP-Q9K591A.BazaDanychZadanie2Wizy.conmgr" />
@@ -377,10 +378,27 @@
                 <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">2</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{98378B29-16C4-446B-87A2-CA40335A605E}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="Paczka_03.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{C295A1B3-B601-4527-8F6C-78E258BA9DD8}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Paczka_03</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionBuild">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{D74F8952-AB03-4169-9110-6BAFF442CD96}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{637B9BA0-EE8D-4D7C-B2FD-70C65B765B62}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
