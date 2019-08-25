@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
-  DTS:ObjectName="Flat File Connection Manager"
+  DTS:ObjectName="FlatFileConManWizyWydane"
   DTS:DTSID="{C8934A13-7CE4-423C-94D4-5E8E3B8545E9}"
+  DTS:Description="WizyWydane CSV"
   DTS:CreationName="FLATFILE">
   <DTS:ObjectData>
     <DTS:ConnectionManager
@@ -21,7 +22,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="OSG"
-          DTS:DTSID="{86B94900-211E-493E-891E-F41BF392633C}"
+          DTS:DTSID="{3D3B6896-E40F-40E5-B52A-4C91D0BE90C5}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -30,7 +31,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="PSG"
-          DTS:DTSID="{E21CF53C-BBF8-4F5F-BB33-8EC1989C1819}"
+          DTS:DTSID="{C3B63B9B-1CB0-42ED-8367-2CE92BEF711E}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -39,7 +40,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="Obywatelstwo"
-          DTS:DTSID="{430015A8-7569-4BD9-AA58-17FD25C16283}"
+          DTS:DTSID="{B39EE4BC-2D71-4E2B-8794-E89ABAF5E702}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -48,7 +49,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="Symbol"
-          DTS:DTSID="{0E4A5E25-A2A4-4C77-9530-F26717C83B5A}"
+          DTS:DTSID="{C8462D36-9631-490D-9ED9-A7B6BE0118D9}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -56,7 +57,7 @@
           DTS:DataType="2"
           DTS:TextQualified="True"
           DTS:ObjectName="WydWizSchZaTerPaSchen"
-          DTS:DTSID="{DB0387A7-4C6B-4305-93AA-7C877CF7D70D}"
+          DTS:DTSID="{28C9FD9D-4BD5-4162-9FBB-7706A8BB5DA2}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -64,7 +65,7 @@
           DTS:DataType="16"
           DTS:TextQualified="True"
           DTS:ObjectName="WydWizSchZaTerPolska"
-          DTS:DTSID="{12758C91-BEA8-474A-9B58-80901176F930}"
+          DTS:DTSID="{1AD18736-42B8-4341-9CDE-B7C94F08C157}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -72,7 +73,7 @@
           DTS:DataType="16"
           DTS:TextQualified="True"
           DTS:ObjectName="ZastNaklWizRodzVD"
-          DTS:DTSID="{B2BCD1E5-9A84-4751-965C-42C46F4F180A}"
+          DTS:DTSID="{940F319F-82B8-416D-B5CD-94EB9FD6BB22}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -80,7 +81,7 @@
           DTS:DataType="16"
           DTS:TextQualified="True"
           DTS:ObjectName="ZastNaklWizRodzVC"
-          DTS:DTSID="{F2D74ADF-1527-4A08-A55F-2738886DA34F}"
+          DTS:DTSID="{5A977347-11C6-4BA4-B6BA-2C873F40722A}"
           DTS:CreationName="" />
       </DTS:FlatFileColumns>
     </DTS:ConnectionManager>
