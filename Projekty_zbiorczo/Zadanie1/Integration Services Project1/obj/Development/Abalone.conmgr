@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:ObjectName="Abalone"
   DTS:DTSID="{527AA6C2-60AD-47D2-95EC-F6FB70D8984B}"
