@@ -12,7 +12,7 @@
       DTS:RowDelimiter=""
       DTS:TextQualifier="_x003C_none_x003E_"
       DTS:CodePage="1250"
-      DTS:ConnectionString="C:\Users\User\Documents\Dawid Zaliczenie DataWarehouse\car.csv">
+      DTS:ConnectionString="C:\Users\dawid\source\repos\70767DataWarehouse\Dane\car.csv">
       <DTS:FlatFileColumns>
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -21,7 +21,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="CarAccept"
-          DTS:DTSID="{8A25850F-967B-4C84-8F8F-D5CD05DDA6BE}"
+          DTS:DTSID="{23061F54-E9B8-41CE-8C70-97AD70CD63F4}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -30,7 +30,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="PriceAccept"
-          DTS:DTSID="{9A76985A-8DA3-4668-90C2-DFE229E2819B}"
+          DTS:DTSID="{A57EA651-10F3-47A5-BB48-A8F6AE6ED22D}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -39,7 +39,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="BuyingPrice"
-          DTS:DTSID="{E9571EBC-5E9D-4EC2-B269-1A5395460AAF}"
+          DTS:DTSID="{A88B4AB3-A9F2-42E9-AEDA-A719BEADD479}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -48,7 +48,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="MaintenCost"
-          DTS:DTSID="{EC4188CF-181E-4320-8811-EDF18F4EC002}"
+          DTS:DTSID="{9B17D6CB-FB8C-4A33-A35F-8D80DF98DAD4}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -57,7 +57,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="TechCharect"
-          DTS:DTSID="{833C0E4F-22BE-4252-885C-3B284B20232C}"
+          DTS:DTSID="{3E0930EF-A9BD-4976-89BD-3191E295BCA4}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -66,7 +66,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="Comfort"
-          DTS:DTSID="{D2183FAF-F0E3-448C-A553-4F3333D66276}"
+          DTS:DTSID="{5D7FA280-40E3-43C4-A3A0-25B2C6FDD25F}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -75,7 +75,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="ClassDistr"
-          DTS:DTSID="{FEA1E844-0576-4D4A-BF4F-111C87D5714F}"
+          DTS:DTSID="{1F60D699-100E-453B-8E31-3A2478DF363B}"
           DTS:CreationName="" />
       </DTS:FlatFileColumns>
     </DTS:ConnectionManager>
