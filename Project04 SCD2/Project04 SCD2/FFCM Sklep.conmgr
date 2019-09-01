@@ -22,7 +22,7 @@
           DTS:DataType="3"
           DTS:TextQualified="True"
           DTS:ObjectName="StoreBusinessId"
-          DTS:DTSID="{32904235-C8B4-4747-BA9F-0F11F6E45034}"
+          DTS:DTSID="{2B3CE8DB-5196-4859-A3F6-65BE58DEE9E5}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -31,7 +31,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="StoreName"
-          DTS:DTSID="{814B3DE9-5FEF-4D0C-AECA-5311FDA5EE93}"
+          DTS:DTSID="{442B1B3F-C293-44E9-85F4-147BE74E647D}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -40,7 +40,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="StoreDescription"
-          DTS:DTSID="{C6730539-D375-4A4F-BDF5-B03F23480765}"
+          DTS:DTSID="{4D655444-BF12-4027-AC83-4858AD570F12}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -49,7 +49,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="Status"
-          DTS:DTSID="{49C84EFD-DF5C-4182-8415-49F3BB8BE1B4}"
+          DTS:DTSID="{3B257E77-EEBF-46FC-BF2F-921383948800}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -57,15 +57,15 @@
           DTS:DataType="3"
           DTS:TextQualified="True"
           DTS:ObjectName="ManagerKey"
-          DTS:DTSID="{F998CD56-76FA-4120-BEE2-E72B910BC0BD}"
+          DTS:DTSID="{A8376CAD-38E6-4269-A1DF-66BDAC5CE023}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
-          DTS:ColumnDelimiter="_x000A_"
+          DTS:ColumnDelimiter="_x000D__x000A_"
           DTS:DataType="3"
           DTS:TextQualified="True"
           DTS:ObjectName="GeographyKey"
-          DTS:DTSID="{CCBEC09F-42B7-48E4-BA68-CE3819045A9F}"
+          DTS:DTSID="{FFCC81E9-88C4-4229-84D1-80A0DF551C4F}"
           DTS:CreationName="" />
       </DTS:FlatFileColumns>
     </DTS:ConnectionManager>
