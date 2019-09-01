@@ -8,6 +8,7 @@
     <DTS:ConnectionManager
       DTS:Format="Delimited"
       DTS:LocaleID="1045"
+      DTS:Unicode="True"
       DTS:HeaderRowDelimiter="_x000D__x000A_"
       DTS:ColumnNamesInFirstDataRow="True"
       DTS:RowDelimiter=""
@@ -21,7 +22,7 @@
           DTS:DataType="3"
           DTS:TextQualified="True"
           DTS:ObjectName="EmployeeKey"
-          DTS:DTSID="{EF7C5095-0B76-4384-834E-9F9FC3C5CE82}"
+          DTS:DTSID="{4D4EFABE-1A5A-4382-9694-0295F1425E82}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -30,7 +31,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="FirstName"
-          DTS:DTSID="{80774BC4-34E4-4DE4-8777-C63A3232DF8D}"
+          DTS:DTSID="{E564428F-2637-47D8-9F39-9F531E0F5CD4}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -39,7 +40,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="LastName"
-          DTS:DTSID="{8C8C73EF-F783-45AA-AC83-8E36F05AB045}"
+          DTS:DTSID="{6ACE90D4-4C16-49A1-B332-C8A5228FFC06}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -48,7 +49,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="Title"
-          DTS:DTSID="{F78A970C-441A-48A5-9CEA-97E9AAC5934B}"
+          DTS:DTSID="{E9ED821F-AA6D-4B92-A3AD-9EC4A2169D78}"
           DTS:CreationName="" />
       </DTS:FlatFileColumns>
     </DTS:ConnectionManager>

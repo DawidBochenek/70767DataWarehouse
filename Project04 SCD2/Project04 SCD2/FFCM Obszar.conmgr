@@ -8,6 +8,7 @@
     <DTS:ConnectionManager
       DTS:Format="Delimited"
       DTS:LocaleID="1045"
+      DTS:Unicode="True"
       DTS:HeaderRowDelimiter="_x000D__x000A_"
       DTS:ColumnNamesInFirstDataRow="True"
       DTS:RowDelimiter=""
@@ -21,7 +22,7 @@
           DTS:DataType="3"
           DTS:TextQualified="True"
           DTS:ObjectName="GeographyKey"
-          DTS:DTSID="{16038C57-DBB5-466C-9B19-EEF38B374579}"
+          DTS:DTSID="{BD87B89E-352A-4EC8-9306-B2809ADD13AE}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -30,7 +31,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="ContinentName"
-          DTS:DTSID="{627E9736-9BC3-457E-BBD0-DB43427D0E73}"
+          DTS:DTSID="{78335FCC-ABE4-4F51-97C6-8A0EE1CB74DE}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -39,7 +40,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="CityName"
-          DTS:DTSID="{0962813E-D776-4A5F-B585-7DAF1CFDABBD}"
+          DTS:DTSID="{092B51DD-98AA-4013-BC8D-8FC2732C6B96}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -48,7 +49,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="StateProvinceName"
-          DTS:DTSID="{4CF2458A-44E6-410A-B557-39F00B853A0F}"
+          DTS:DTSID="{AC4BEC80-43FD-45B1-8DDF-00251331EDDD}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -57,7 +58,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="RegionCountryName"
-          DTS:DTSID="{13DA6041-109F-491B-A97D-58BD80CE4D48}"
+          DTS:DTSID="{C96A245F-95C1-4F00-A83D-4D37368AFDAD}"
           DTS:CreationName="" />
       </DTS:FlatFileColumns>
     </DTS:ConnectionManager>
