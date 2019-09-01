@@ -12,7 +12,7 @@
       DTS:ColumnNamesInFirstDataRow="True"
       DTS:RowDelimiter=""
       DTS:TextQualifier="_x003C_none_x003E_"
-      DTS:CodePage="1250"
+      DTS:CodePage="1252"
       DTS:ConnectionString="C:\Users\dawid\source\repos\70767DataWarehouse\Dane\Pracownik.csv">
       <DTS:FlatFileColumns>
         <DTS:FlatFileColumn
@@ -21,7 +21,7 @@
           DTS:DataType="3"
           DTS:TextQualified="True"
           DTS:ObjectName="EmployeeKey"
-          DTS:DTSID="{486FABE6-DEE7-45BC-9DEC-87FF596ABC34}"
+          DTS:DTSID="{EF7C5095-0B76-4384-834E-9F9FC3C5CE82}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -30,7 +30,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="FirstName"
-          DTS:DTSID="{DE0CE20B-FFC4-4B0E-AA51-D58895C7D2C7}"
+          DTS:DTSID="{80774BC4-34E4-4DE4-8777-C63A3232DF8D}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -39,7 +39,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="LastName"
-          DTS:DTSID="{09C852D5-9113-411F-AC8E-2DEA4DAC5DB4}"
+          DTS:DTSID="{8C8C73EF-F783-45AA-AC83-8E36F05AB045}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -48,7 +48,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="Title"
-          DTS:DTSID="{FDFF5D3A-F33D-406A-A86D-35A1C1833832}"
+          DTS:DTSID="{F78A970C-441A-48A5-9CEA-97E9AAC5934B}"
           DTS:CreationName="" />
       </DTS:FlatFileColumns>
     </DTS:ConnectionManager>

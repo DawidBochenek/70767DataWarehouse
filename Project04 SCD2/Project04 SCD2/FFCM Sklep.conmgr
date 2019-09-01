@@ -12,17 +12,16 @@
       DTS:ColumnNamesInFirstDataRow="True"
       DTS:RowDelimiter=""
       DTS:TextQualifier="_x003C_none_x003E_"
-      DTS:CodePage="1250"
+      DTS:CodePage="1252"
       DTS:ConnectionString="C:\Users\dawid\source\repos\70767DataWarehouse\Dane\Sklep.csv">
       <DTS:FlatFileColumns>
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
           DTS:ColumnDelimiter="_x003B_"
-          DTS:MaximumWidth="50"
-          DTS:DataType="129"
+          DTS:DataType="3"
           DTS:TextQualified="True"
           DTS:ObjectName="StoreBusinessId"
-          DTS:DTSID="{3CA4FA77-D3AD-429F-AECC-3D65C8B5DB92}"
+          DTS:DTSID="{9072EBEB-9C2E-45AE-B093-A8045F920506}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -31,7 +30,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="StoreName"
-          DTS:DTSID="{F663C721-7835-451F-8994-A1F337795B8E}"
+          DTS:DTSID="{D0002136-13C2-473A-B23E-96CD12E345F1}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -40,7 +39,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="StoreDescription"
-          DTS:DTSID="{0756F6B0-AAB6-463E-999C-685D529C7D91}"
+          DTS:DTSID="{1F8D21D9-9703-495A-B14B-6C68554C1893}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -49,25 +48,23 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="Status"
-          DTS:DTSID="{AB17DB8B-6EBE-4A72-9844-90F4199ECD9B}"
+          DTS:DTSID="{201BFE55-C98A-489A-A8A3-5A6361F55347}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
           DTS:ColumnDelimiter="_x003B_"
-          DTS:MaximumWidth="50"
-          DTS:DataType="129"
+          DTS:DataType="3"
           DTS:TextQualified="True"
           DTS:ObjectName="ManagerKey"
-          DTS:DTSID="{4F519B3B-372F-41E9-8C34-46F3C8A2DDE9}"
+          DTS:DTSID="{6DA4B376-D219-42C7-AA6A-B2C2FC5079F3}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
           DTS:ColumnDelimiter="_x000A_"
-          DTS:MaximumWidth="50"
-          DTS:DataType="129"
+          DTS:DataType="3"
           DTS:TextQualified="True"
           DTS:ObjectName="GeographyKey"
-          DTS:DTSID="{3BD2B841-01B2-4E28-9512-61FD894DF191}"
+          DTS:DTSID="{FBB266F6-F478-4A4E-B68F-18FBF5098DF7}"
           DTS:CreationName="" />
       </DTS:FlatFileColumns>
     </DTS:ConnectionManager>
