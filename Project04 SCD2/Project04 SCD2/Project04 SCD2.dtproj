@@ -26,12 +26,14 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-Q9K591A</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA20KEzQ/8pE62hTJOWFY7AQAAAAACAAAAAAAQZgAAAAEAACAAAAAUwpoPC5DWwx+as0a8Lvx/BIjkjTU1k0H+8ur2yXxTdQAAAAAOgAAAAAIAACAAAACXcV6CCLBqm/dwbLjrKuAvXmGTxZk7rkcoYdcJOprJU5AAAADVnuI+JA3ElIjugPSGyPoRFGVX4TBfoJKkzPhOvv7KD2DQcs7seY+QhBXlB3uKvFZB7G4fX49cwc/R4exvIHfrbWFMDxi65SpJ98u2A+ZSXzqV8XNDYCvnXYdvk5po660SUxMC8Ie8PI1gcnYMlqITmXG+eeBMRMo0fFIBv7p2wEAuMkogVClknHQE7/hKPopAAAAAMG0dS2pXsFc8vktnmyqHTd2jc9B7rD8kzpRH+PN0NPI5XOzSr1jc/sJu4lztqfjr9RVOWmVfHq5ojxCAA+8lZA==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA20KEzQ/8pE62hTJOWFY7AQAAAAACAAAAAAAQZgAAAAEAACAAAADTH6mUCjcb+pgsecb26JwjPkUGlguwYQUShOQhoiSd2AAAAAAOgAAAAAIAACAAAADfN/vrVd9xnw93ecUZSTZWty4nYKtgsONBrnJx/LwrwpAAAAAzlfrn3MMrRhpBrZ9ynMOaeVrzUQTma/2VDeV/K4DtN6BleqzqvoFXVUf5M43/mnW+98+YEk/1VkbQfgfwfo678L9S2evgcvG0chgC3S3KA3t5nmHVS7ZtG02tWsdTsfCu2OsPEc/Qwgk8Phm1Kkwp3XqK+tM2IX/Ntzl2ZlLx9278jbCST1oWBLRICd3zl35AAAAAtSlIwAEJ12m5OQlyLa/pw1+yqiP3wU9AayDhLXcKCcEjGmgmWOfXeiSATfFUgFpB8vcM9cQt56JGFkOFztwrjA==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
-          <SSIS:Package SSIS:Name="Paczka01 pkt1.dtsx" SSIS:EntryPoint="1" />
-          <SSIS:Package SSIS:Name="Paczka02 pkt2.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="02 SCD2 porwnanie baza pliki wsadowe.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="01 SCD2 ladowanieStart.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="03 Archiw Paczka01 pkt1.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="04 Archiw Paczka02 pkt2.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers>
           <SSIS:ConnectionManager SSIS:Name="DESKTOP-Q9K591A.AdventureWorksDW2017.conmgr" />
@@ -353,7 +355,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">true</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">false</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -550,7 +552,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">true</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">false</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -747,7 +749,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">true</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">false</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -871,16 +873,16 @@
             </SSIS:Parameter>
           </SSIS:ProjectConnectionParameters>
           <SSIS:PackageInfo>
-            <SSIS:PackageMetaData SSIS:Name="Paczka01 pkt1.dtsx">
+            <SSIS:PackageMetaData SSIS:Name="02 SCD2 porwnanie baza pliki wsadowe.dtsx">
               <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">{B39D70CE-6FC9-4F25-B633-7F9E83A4EEEF}</SSIS:Property>
-                <SSIS:Property SSIS:Name="Name">Paczka01 pkt1</SSIS:Property>
+                <SSIS:Property SSIS:Name="ID">{B3B1045B-B699-4EC2-A84C-520F9095413C}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">02 SCD2 porwnanie baza pliki wsadowe</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">12</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">47</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{34D63C25-FAA1-4FE3-9D23-D739B2B7580C}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{0EBD9604-0C11-455C-A307-8F43E8CA2020}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -888,16 +890,65 @@
               </SSIS:Properties>
               <SSIS:Parameters />
             </SSIS:PackageMetaData>
-            <SSIS:PackageMetaData SSIS:Name="Paczka02 pkt2.dtsx">
+            <SSIS:PackageMetaData SSIS:Name="01 SCD2 ladowanieStart.dtsx">
               <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">{C0692BF4-99E4-4CFA-AFF1-3E8A9B0EE922}</SSIS:Property>
-                <SSIS:Property SSIS:Name="Name">Paczka02 pkt2</SSIS:Property>
+                <SSIS:Property SSIS:Name="ID">{60720AE9-24D8-4E4C-86C5-6DE4213785A4}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">01 SCD2 ladowanieStart</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">15</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">21</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{0CB138CF-A888-410C-BF99-6F18710331E1}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{44905ACF-CDC9-4FDB-B013-9166182BE29A}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters>
+                <SSIS:Parameter SSIS:Name="Parameter">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">{4FFB495B-A033-4F37-8D03-24E4364F9544}</SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+              </SSIS:Parameters>
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="03 Archiw Paczka01 pkt1.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{C7FA2820-3FA3-4DC7-88C0-B2F9F1078B9E}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">03 Archiw Paczka01 pkt1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">14</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{DA26D7C1-4AE0-4855-9011-A12BABB49340}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="04 Archiw Paczka02 pkt2.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{6697134C-2E02-424B-8FB7-273B60078D9D}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">04 Archiw Paczka02 pkt2</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">21</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{C8F04741-7786-4F88-8A7F-F5603DD2287A}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>

@@ -8,7 +8,6 @@
     <DTS:ConnectionManager
       DTS:Format="Delimited"
       DTS:LocaleID="1045"
-      DTS:Unicode="True"
       DTS:HeaderRowDelimiter="_x000D__x000A_"
       DTS:ColumnNamesInFirstDataRow="True"
       DTS:RowDelimiter=""
@@ -19,10 +18,11 @@
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
           DTS:ColumnDelimiter="_x003B_"
-          DTS:DataType="3"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="GeographyKey"
-          DTS:DTSID="{716351E4-9AED-4E38-B4BF-B1CB7121D0E3}"
+          DTS:DTSID="{55FEF289-71A0-4C1C-AD5A-59730EDB4CF1}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -31,7 +31,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="ContinentName"
-          DTS:DTSID="{FA7F59F9-EF67-4767-9D24-B9045151358B}"
+          DTS:DTSID="{3C740481-D75B-4AE8-A477-5782006DA56A}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -40,7 +40,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="CityName"
-          DTS:DTSID="{1A6EE744-4E62-4C5E-8C42-6E62E3A1E497}"
+          DTS:DTSID="{95A9C5E6-D95A-461A-BA11-8D17A94B429A}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -49,16 +49,16 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="StateProvinceName"
-          DTS:DTSID="{D5B9AC44-A5D9-48C2-8086-2F4C11753D28}"
+          DTS:DTSID="{F3F95ED0-F333-4DDD-8921-2319940313DB}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
-          DTS:ColumnDelimiter="_x000D__x000A_"
+          DTS:ColumnDelimiter="_x000A_"
           DTS:MaximumWidth="50"
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="RegionCountryName"
-          DTS:DTSID="{0E0C4041-07A6-42C1-962C-BC50D0C32227}"
+          DTS:DTSID="{5475B2BD-760C-416F-AFFD-65B7D308071F}"
           DTS:CreationName="" />
       </DTS:FlatFileColumns>
     </DTS:ConnectionManager>

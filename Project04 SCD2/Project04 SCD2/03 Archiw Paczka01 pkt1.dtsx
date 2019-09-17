@@ -5,14 +5,14 @@
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="DESKTOP-Q9K591A"
   DTS:CreatorName="DESKTOP-Q9K591A\dawid"
-  DTS:DTSID="{B39D70CE-6FC9-4F25-B633-7F9E83A4EEEF}"
+  DTS:DTSID="{C7FA2820-3FA3-4DC7-88C0-B2F9F1078B9E}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="15.0.1301.433"
   DTS:LocaleID="1045"
-  DTS:ObjectName="Paczka01 pkt1"
+  DTS:ObjectName="03 Archiw Paczka01 pkt1"
   DTS:PackageType="5"
-  DTS:VersionBuild="12"
-  DTS:VersionGUID="{34D63C25-FAA1-4FE3-9D23-D739B2B7580C}">
+  DTS:VersionBuild="14"
+  DTS:VersionGUID="{DA26D7C1-4AE0-4855-9011-A12BABB49340}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
